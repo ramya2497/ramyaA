@@ -1,0 +1,158 @@
+.About-container {
+  height: 70vh;
+  width: 55%;
+  padding: 80px;
+  margin-left: 60px;
+  margin-top: 30px;
+  background-color: #ffff;
+  margin-bottom: 75px;
+}
+.About-heading {
+  font-size: 18px;
+}
+.circle {
+  height: 16px;
+  width: 16px;
+  background-color: #ff6b00;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+}
+.About-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.About-head1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+.Lorem-one {
+  margin-top: 25px;
+  color: #606060;
+  font-size: 16px;
+}
+.DownloadCv-button {
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: #ff6b00;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 10px 30px;
+  border: 1px solid transparent;
+}
+.animation {
+  margin-top: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  right: -700px;
+  bottom: 300px;
+}
+.square {
+  position: absolute;
+  background-color: #ff6b00;
+  opacity: 0.8;
+}
+.layer1 {
+  width: 140px;
+  height: 140px;
+  animation: squareAnimation 4s infinite;
+}
+.layer2 {
+  width: 160px;
+  height: 160px;
+  animation: squareAnimation 4s infinite;
+  animation-delay: 1s;
+}
+.layer3 {
+  width: 180px;
+  height: 180px;
+  animation: squareAnimation 4s infinite;
+  animation-delay: 2s;
+}
+@keyframes squareAnimation {
+  0% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1.5) rotate(90deg);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+    opacity: 0.5;
+  }
+  75% {
+    transform: scale(1.5) rotate(270deg);
+    opacity: 0.75;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 850px) {
+  .About-container {
+    margin-left: 20px;
+    height: 70vh;
+  }
+  .About-head1 {
+    font-size: 16px;
+    margin-top: 28px;
+  }
+  .Lorem-one {
+    margin-top: 15px;
+    color: #606060;
+    font-size: 12px;
+  }
+  .animation {
+    margin-top: 95px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    right: -350px;
+    bottom: 300px;
+  }
+  .layer1 {
+    width: 80px;
+    height: 80px;
+  }
+  .layer2 {
+    width: 100px;
+    height: 100px;
+  }
+  .layer3 {
+    width: 120px;
+    height: 120px;
+  }
+  .About-container {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .About-container {
+    height: 55vh;
+    padding: 0px 20px;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 45px;
+    margin-top: 45px;
+  }
+  .About-head1 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .animation {
+    display: none;
+  }
+  .DownloadCv-button {
+    margin-left: 55px;
+  }
+}

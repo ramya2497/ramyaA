@@ -1,0 +1,99 @@
+.circle {
+  height: 16px;
+  width: 16px;
+  background-color: #ff6b00;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+}
+.Skill-heading {
+  font-size: 28px;
+  font-weight: 600;
+}
+.Skills-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 50px 60px;
+  margin-left: 40px;
+  justify-content: center;
+}
+.Skills-image {
+  padding: 20px;
+  border: 1px solid #fff5ef;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  box-shadow: 3px 3px 20px #c5c5c5;
+}
+.Image-container {
+  margin-left: 80px;
+  margin-bottom: 50px;
+  flex: 1 1 25%;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.Img-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 600px;
+  padding: 50px;
+  width: 75%;
+  margin-left: 55px;
+}
+.Skills-label {
+  font-size: 18px;
+  text-align: center;
+  width: 200px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #fff5ef;
+  box-shadow: 3px 3px 20px #c5c5c5;
+  border-radius: 5px;
+  margin-top: -7px;
+}
+.Percentage-span {
+  color: #ff6b00;
+  font-weight: 500;
+}
+@media screen and (max-width: 850px) {
+  .Img-container {
+    margin-left: 10px;
+    width: 35%;
+    padding: 0px;
+    margin-bottom: 85px;
+  }
+  .Image-container {
+    flex: 0;
+    margin-left: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .Img-container {
+    width: 20%;
+    margin-left: 0;
+    height: 540px;
+  }
+  .Image-container {
+    margin-left: 22px;
+  }
+  .Skills-image {
+    padding: 18px;
+    height: 80px;
+    width: 80px;
+    margin-left: 11px;
+  }
+  .Skills-label {
+    font-size: 16px;
+    width: 115px;
+  }
+  .Skills-container {
+    margin-left: 0;
+    padding: 10px 35px 30px;
+  }
+}
