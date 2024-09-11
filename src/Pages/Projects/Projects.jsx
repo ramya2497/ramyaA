@@ -9,7 +9,7 @@ const ProjectPage = () => {
       title: "E-commerce Website",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor veritatis nihil enim. Dicta itaque.",
-      link: "",
+      link: "https://ramya2497.github.io/Ecommerce/",
       image: Slide1,
     },
     {
