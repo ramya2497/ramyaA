@@ -16,7 +16,7 @@ const ProjectPage = () => {
       title: "Web Agency Website",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor veritatis nihil enim. Dicta itaque.",
-      link: "",
+      link: "https://webagencywebsite.netlify.app",
       image: Slide2,
     },
     {
